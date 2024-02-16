@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Genral Sans";
+    /* font-family: "Genral Sans"; */
+    font-family: 'poppins', sans-serif;
 }
 html,body{
     height: 100%;
@@ -14,6 +15,7 @@ html,body{
 
 }
 #hero{
+    color: #fff;
     width: 100%;
     height: 100vh;
     background-color: black;
@@ -22,7 +24,30 @@ html,body{
     width: 100%;
     padding: 20px 40px;
     color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 #nav a{
+    text-decoration: none;
     color: white;
+    font-size: 18px;
+}
+
+#heading {
+margin-top: 90px;
+}
+
+#heading h1{
+    /* font-family: "Genral Sans Medium"; */
+    margin-left: 30px;
+    opacity: .5;
+    line-height: 1;
+    font-size: 10vw;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#heading #secondh1{
+    margin-left: 150px;
 }
