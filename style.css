@@ -24,9 +24,8 @@ html,body{
     width: fit-content;
     overflow: hidden;
 }
-
-.bounding .boundingelem{
-    
+.bounding .boundinglem{
+    transform: translateY(100%);
 }
 #main{
     width: 100%;
@@ -69,6 +68,9 @@ margin-top: 90px;
 }
 
 .blocktext{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
     width: fit-content;
 }
 
@@ -79,6 +81,9 @@ margin-top: 90px;
 }
 
 #chotiheadings{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
     margin-top: 100px;
     padding-right: 50px;
 }
@@ -149,10 +154,12 @@ margin-top: 90px;
 }
 
 .elem img{
-    display: none;
-    height: 140px;
+    opacity: 0;
+    pointer-events: none;
+    height: 140%;
     z-index: 999;
     position: absolute;
+    transform: translate(-50%, -50%);
 }
 
 #about{
@@ -242,6 +249,7 @@ margin-top: 90px;
     color: #fff;
     text-decoration: none;
 }
+
 
 
 
